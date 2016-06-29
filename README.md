@@ -5,12 +5,14 @@ A framework for asynchronous web apps built on top of backbonejs.
 ####Kahn.Model.Page
 #####childClasses
 JSON hash containing child classes associated with an object guid defined in config.json. An asterisk `"*"` can be used as a wild card to match any guid that is not specifically named in a key-value pair:
-`{
+```javascript
+{
 	"home": ViewPageHome,
 	"products": ViewPageProducts,
 	"services": ViewPageServices,
 	"*": ViewPageNotFound
-}`
+}
+```
 
 #####initiate
 #####preload
