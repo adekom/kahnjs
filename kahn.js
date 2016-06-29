@@ -1,8 +1,7 @@
+// Kahn.js 1.0.0
 
-//		 Kahn.js 1.0.0
-
-//		 (c) 2015 Anton Dekom
-//		 Kahn may be freely distributed under the MIT license.
+// (c) 2015 Anton Dekom
+// Kahn may be freely distributed under the MIT license.
 
 (function(factory) {
 	var root = (typeof self == "object" && self.self == self && self) || (typeof global == "object" && global.global == global && global);
